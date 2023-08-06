@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>언이스케입 처리 [(...)]</h1>
+  <ul>
+    <li th:text="${data}"></li>
+    <li th:utext="${data}"></li>
+  </ul>
+  <ul>
+    <li>[[${data}]]</li>
+    <li>[(${data})]</li>
+  </ul>
+</body>
+</html>
